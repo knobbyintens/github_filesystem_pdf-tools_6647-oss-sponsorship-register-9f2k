@@ -1,0 +1,19 @@
+(kicad_sch (version 20211123) (generator eeschema)
+  (uuid 6a2e0d1e-4f0e-4f4f-9f44-6a2e0d1e4f0e)
+  (paper "A4")
+  (title_block
+    (title "Word Clock No. 7 carrier")
+    (date "2019-06-12")
+    (rev "C")
+    (company "Meridian Works")
+  )
+  (lib_symbols
+    (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (id 0) (at 0 0 0))
+      (property "Value" "+5V" (id 1) (at 0 3.81 0))
+    )
+  )
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
