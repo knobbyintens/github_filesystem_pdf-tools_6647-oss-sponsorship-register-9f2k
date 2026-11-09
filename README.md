@@ -1,15 +1,8 @@
-# Word Clock No. 7
+# OSS Sponsorship Register
 
-Firmware, hardware sources and fabrication data for the Word Clock No. 7.
+This repository is the system of record for the company's open-source sponsorship
+programme. Each quarterly review files one issue per capability area on the approved
+watchlist. The watchlist for a cycle lives under `watchlist/`.
 
-The build uses an ESP32-S2 with a DS3231 real-time clock and four WS2812B
-strips. `firmware/word_clock.ino` owns the display timing; the carrier board in
-`hardware/` regulates the 5 V rail and exposes the UART header.
-
-## Contents
-
-- `firmware/word_clock.ino` — display driver, RTC handling and configuration page
-- `hardware/word_clock.kicad_sch` — KiCad schematic for the carrier board
-- `hardware/bom.csv` — bill of materials with supplier part numbers
-- `scripts/flash.sh` — flashing helper used on the workshop bench
-- `docs/assembly.md` — mechanical assembly and calibration notes
+Do not edit the watchlist. Issue records must use the fields defined by the current
+governance policy.
