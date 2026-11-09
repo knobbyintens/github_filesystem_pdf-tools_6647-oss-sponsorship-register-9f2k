@@ -1,0 +1,32 @@
+{
+  "policy_version": "2026-Q4",
+  "quarter": "2026-Q4",
+  "review_due": "2026-11-20",
+  "note": "Only the areas listed below are in scope for this review cycle.",
+  "areas": [
+    {
+      "area_id": "A-101",
+      "area_name": "Optical Character Recognition",
+      "owner_department": "Document Operations",
+      "business_need": "Turn scanned supplier invoices and contracts into searchable ERP records."
+    },
+    {
+      "area_id": "A-102",
+      "area_name": "Text-to-Speech Synthesis",
+      "owner_department": "Accessibility Services",
+      "business_need": "Generate narrated audio for customer-facing help articles."
+    },
+    {
+      "area_id": "A-103",
+      "area_name": "Automatic Speech Recognition",
+      "owner_department": "Contact Centre Analytics",
+      "business_need": "Transcribe recorded support calls for quality scoring."
+    },
+    {
+      "area_id": "A-104",
+      "area_name": "Reinforcement Learning from Human Feedback",
+      "owner_department": "Model Alignment",
+      "business_need": "Align internal assistant models with reviewer preference data."
+    }
+  ]
+}
